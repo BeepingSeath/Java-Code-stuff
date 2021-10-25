@@ -18,6 +18,6 @@ public class Multiplication {
             output += int1 + " * " + int2 + " = " + num + "\n";
             int2 = int2 + 1;
         }
-        JOptionPane.showMessageDialog(null, output);
+        System.out.println(output);
     }
-}
+}   
